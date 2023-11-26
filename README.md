@@ -1,46 +1,92 @@
-# Personality Prediction System
+# Credit Card Fraud Detection Using Machine Learning
 
-Welcome to the Personality Prediction System project!
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
+## About
+
+**Project Owner:** Mohamed Haitham
+
+Credit Card Fraud Detection is a critical application of machine learning to identify and prevent fraudulent credit card transactions. This project explores various techniques and algorithms to achieve accurate fraud detection, leveraging the [Credit Card Fraud Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) from Kaggle.
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Data](#data)
+3. [Exploratory Data Analysis (EDA)](#eda)
+4. [Data Transformation](#data-transformation)
+5. [Model Building on Imbalanced Data](#model-building-on-imbalanced-data)
+6. [Model Building on Balanced Data with Undersampling](#model-building-on-balanced-data-with-undersampling)
+7. [Model Building on Balanced Data with Oversampling](#model-building-on-balanced-data-with-oversampling)
+8. [Model Building on Balanced Data with SMOTE](#model-building-on-balanced-data-with-smote)
+9. [Model Building on Balanced Data with ADASYN](#model-building-on-balanced-data-with-adasyn)
+10. [Conclusions](#conclusions)
+  
 ## Introduction
 
-In an age where data is abundant and technology is continuously evolving, the ability to predict and understand human behavior has become an invaluable asset for a wide range of applications. The "Personality Prediction System" project aims to harness the power of machine learning to gain insights into individual personalities, enabling organizations to tailor their services, marketing, and recommendations in a highly personalized manner.
+Credit Card Fraud Detection is a critical task in the financial industry. This project aims to build robust models capable of identifying fraudulent credit card transactions. We employ various machine learning algorithms and techniques to enhance fraud detection accuracy and reduce false positives.
 
-## Key Features
+## Data
 
-- **Data Collection:** Gathering data from diverse sources, including questionnaires, social media profiles, and public datasets.
-- **Data Preprocessing:** Cleaning, transforming, and preparing data for machine learning analysis. This involves handling missing values, one-hot encoding, and feature scaling.
-- **Machine Learning Models:** Employing a variety of machine learning algorithms to predict personality traits. These models will be trained and evaluated extensively.
-- **Evaluation Metrics:** Measuring the performance of the personality prediction models using relevant metrics such as accuracy, precision, recall, and F1-score.
-- **Deployment:** Developing a user-friendly interface for end-users to interact with the system, making personality predictions on new data.
-- **Ethical Considerations:** Addressing ethical concerns regarding the collection and usage of personal data, including privacy and consent.
+We use the [Credit Card Fraud Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) from Kaggle for training and evaluation. This dataset contains a mixture of fraudulent and non-fraudulent transactions, making it suitable for building and testing our models.
 
-## Project Status
+## Exploratory Data Analysis (EDA)
 
-This project is a work in progress. Updates and improvements will be made regularly.
+Our exploratory data analysis includes:
 
-## Getting Started
+- Understanding the dataset's structure and features.
+- Identifying missing values and handling outliers.
+- Visualizing data through univariate, bivariate, and multivariate analyses.
 
-To get started with this project, you can follow these steps:
+## Data Transformation
 
-1. Clone the repository to your local machine:
+We preprocess the data to prepare it for modeling, including feature scaling and encoding categorical variables.
 
-   ```bash
-   git clone https://github.com/your-username/personality-prediction-system.git
+## Model Building on Imbalanced Data
 
+We experiment with various machine learning algorithms, including:
 
-## Navigate to the project directory and install the required dependencies:
-cd personality-prediction-system
-pip install -r requirements.txt
+- Logistic Regression
+- Naive Bayes
+- Decision Tree
+- Random Forest
+- AdaBoost
+- XGBoost
+- LightGBM
+- CatBoost
+- ANN (Artificial Neural Network)
 
+We evaluate model performance on the imbalanced dataset.
 
-## Run the Jupyter Notebook to see the code and results:
-jupyter notebook
+## Model Building on Balanced Data with Undersampling
 
+In this section, we balance the dataset through undersampling and re-run the same algorithms as in the previous section to assess their performance.
 
-## Contributing
-If you're interested in contributing to this project or have any suggestions, please feel free to open issues and pull requests. Your contributions are highly appreciated.
+## Model Building on Balanced Data with Oversampling
 
+Similar to the previous section, we balance the dataset through oversampling and evaluate model performance.
 
-Now you can copy and use this as needed!
+## Model Building on Balanced Data with SMOTE
 
+We employ Synthetic Minority Over-sampling Technique (SMOTE) to balance the dataset and assess model performance.
+
+## Model Building on Balanced Data with ADASYN
+
+We use the Adaptive Synthetic Sampling (ADASYN) algorithm to balance the dataset and evaluate model performance.
+
+## Conclusions
+
+We summarize our findings, discuss the effectiveness of different techniques, and highlight the best-performing models for credit card fraud detection.
+
+## License
+
+This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE) file.
+
+## Contributions
+
+Contributions to this project are welcome. If you'd like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your contributions.
+3. Make your changes, test them thoroughly, and adhere to best practices.
+4. Create a pull request with a clear description of your changes.
+
+For any questions or concerns, please contact [Mohamed Haitham](medohaitham99@gmail.com).
