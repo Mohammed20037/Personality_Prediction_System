@@ -1,92 +1,30 @@
-# Credit Card Fraud Detection Using Machine Learning
+# Personality Prediction System
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+**Welcome to the Personality Prediction System Project!**
 
-## About
-
-**Project Owner:** Mohamed Haitham
-
-Credit Card Fraud Detection is a critical application of machine learning to identify and prevent fraudulent credit card transactions. This project explores various techniques and algorithms to achieve accurate fraud detection, leveraging the [Credit Card Fraud Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) from Kaggle.
-
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Data](#data)
-3. [Exploratory Data Analysis (EDA)](#eda)
-4. [Data Transformation](#data-transformation)
-5. [Model Building on Imbalanced Data](#model-building-on-imbalanced-data)
-6. [Model Building on Balanced Data with Undersampling](#model-building-on-balanced-data-with-undersampling)
-7. [Model Building on Balanced Data with Oversampling](#model-building-on-balanced-data-with-oversampling)
-8. [Model Building on Balanced Data with SMOTE](#model-building-on-balanced-data-with-smote)
-9. [Model Building on Balanced Data with ADASYN](#model-building-on-balanced-data-with-adasyn)
-10. [Conclusions](#conclusions)
-  
 ## Introduction
 
-Credit Card Fraud Detection is a critical task in the financial industry. This project aims to build robust models capable of identifying fraudulent credit card transactions. We employ various machine learning algorithms and techniques to enhance fraud detection accuracy and reduce false positives.
+In an era characterized by data abundance and relentless technological advancement, the discernment and prediction of human behavior have become indispensable capabilities across diverse applications. The "Personality Prediction System" project represents a dedicated effort to leverage cutting-edge machine learning techniques for gaining profound insights into individual personalities. This initiative empowers organizations to tailor their services, marketing strategies, and recommendations with a heightened level of personalization.
 
-## Data
+## Key Features
 
-We use the [Credit Card Fraud Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) from Kaggle for training and evaluation. This dataset contains a mixture of fraudulent and non-fraudulent transactions, making it suitable for building and testing our models.
+- **Data Collection:** Aggregating diverse data sources, including questionnaires, social media profiles, and public datasets.
+- **Data Preprocessing:** Rigorous cleaning, transformation, and preparation of data for precise machine learning analysis. This encompasses adept handling of missing values, one-hot encoding, and feature scaling.
+- **Machine Learning Models:** Implementation of a spectrum of machine learning algorithms to predict personality traits. These models undergo comprehensive training and evaluation.
+- **Evaluation Metrics:** Rigorous measurement of personality prediction model performance using key metrics such as accuracy, precision, recall, and F1-score.
+- **Deployment:** Development of a user-friendly interface, facilitating end-users to interact seamlessly with the system for personality predictions on novel data.
+- **Ethical Considerations:** Meticulous attention to ethical concerns, encompassing the responsible collection and usage of personal data, with a focus on privacy and explicit consent.
 
-## Exploratory Data Analysis (EDA)
+## Project Status
 
-Our exploratory data analysis includes:
+This project is an ongoing endeavor, subject to regular updates and enhancements.
 
-- Understanding the dataset's structure and features.
-- Identifying missing values and handling outliers.
-- Visualizing data through univariate, bivariate, and multivariate analyses.
+## Getting Started
 
-## Data Transformation
+To seamlessly engage with this project, follow these steps:
 
-We preprocess the data to prepare it for modeling, including feature scaling and encoding categorical variables.
-
-## Model Building on Imbalanced Data
-
-We experiment with various machine learning algorithms, including:
-
-- Logistic Regression
-- Naive Bayes
-- Decision Tree
-- Random Forest
-- AdaBoost
-- XGBoost
-- LightGBM
-- CatBoost
-- ANN (Artificial Neural Network)
-
-We evaluate model performance on the imbalanced dataset.
-
-## Model Building on Balanced Data with Undersampling
-
-In this section, we balance the dataset through undersampling and re-run the same algorithms as in the previous section to assess their performance.
-
-## Model Building on Balanced Data with Oversampling
-
-Similar to the previous section, we balance the dataset through oversampling and evaluate model performance.
-
-## Model Building on Balanced Data with SMOTE
-
-We employ Synthetic Minority Over-sampling Technique (SMOTE) to balance the dataset and assess model performance.
-
-## Model Building on Balanced Data with ADASYN
-
-We use the Adaptive Synthetic Sampling (ADASYN) algorithm to balance the dataset and evaluate model performance.
-
-## Conclusions
-
-We summarize our findings, discuss the effectiveness of different techniques, and highlight the best-performing models for credit card fraud detection.
-
-## License
-
-This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE) file.
-
-## Contributions
-
-Contributions to this project are welcome. If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your contributions.
-3. Make your changes, test them thoroughly, and adhere to best practices.
-4. Create a pull request with a clear description of your changes.
-
-For any questions or concerns, please contact [Mohamed Haitham](medohaitham99@gmail.com).
+```bash
+git clone https://github.com/Mohammed20037/Personality_Prediction_System.git
+cd Personality_Prediction_System
+pip install -r requirements.txt
+jupyter notebook
